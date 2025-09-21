@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.glass-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 25px;
+  width: 340px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+h2 {
+  margin-bottom: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background: #b9c1ac;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(to right, #ffffff, #b5b5b5);
+  transition: width 0.3s ease;
+}
+
+.percent {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ddd;
+}
